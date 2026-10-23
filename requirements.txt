@@ -1,0 +1,6 @@
+fastapi>=0.115,<1
+uvicorn>=0.34,<1
+websockets>=14,<17
+pyfatfs>=1.1,<2
+# pyfatfs' fs dependency still imports pkg_resources.
+setuptools<81
